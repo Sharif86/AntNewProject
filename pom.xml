@@ -14,10 +14,10 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-      <target name="dist" depends="compile"
-          description="Create WAR file for binary distribution">
-      <jar jarfile="${dist.home}/${app.name}-${app.version}.war"
-         basedir="${work.home}"/>
+      <groupId>war</groupId>
+      <artifactId>war</artifactId>
+      <version>3.8.1</version>
+      <scope>war</scope>
   
     </dependency>
     
