@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cf-spring
+- name: MavenProject
   memory: 128M
   instances: 1
   random-route: true
