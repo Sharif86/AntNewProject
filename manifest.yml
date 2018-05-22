@@ -1,6 +1,6 @@
 ---
 applications:
 - name: MavenProject
-  memory: 128M
+  memory: 512M
   instances: 1
   random-route: true
